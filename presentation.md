@@ -210,6 +210,14 @@ Aber auch:
 
 -------------------------------------------------------------------------------
 
+-> Für wen sind Tiling Window-Manager geeignet?
+
+Ist i3 die Antwort auf alles?
+
+-> *NEIN!*
+
+-------------------------------------------------------------------------------
+
 -> # Danke!
 
 * Fragen? Einfach ansprechen!
