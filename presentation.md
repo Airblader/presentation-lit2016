@@ -67,13 +67,32 @@
 
 -------------------------------------------------------------------------------
 
+-> # Agenda
+
+^
+* Was ist ein Window-Manager?
+^
+* Was ist ein Desktop Environment?
+^
+* Warum Tiling Window-Manager?
+^
+* i3wm
+
+-------------------------------------------------------------------------------
+
 -> # Was ist ein Window-Manager (WM)?
 
 Ein Window-Manager…
+
+^
 * … kontrolliert die Position und Größe von Fenstern.
+^
 * … entscheidet, welche Fenster wann sichtbar sind.
+^
 * … verarbeitet Anfragen zum Ändern all dieser Größen.
+^
 * … dekoriert Fenster.
+^
 * … erlaubt die Interaktion des Benutzers mit den Fenstern.
     - Schließen, Maximieren, Minimizeren
     - Verschieben, Resizen
@@ -85,9 +104,14 @@ Ein Window-Manager…
 -> # Was ist ein Window-Manager nicht?
 
 Ein Window-Manager…
+
+^
 * … verwaltet *nicht* Sound, Netzwerk oder andere Dienste.
+^
 * … liefert *keine* Tools zur Systemkonfiguration.
+^
 * … ist *nicht* für das Rendering der Fensterinhalte verantwortlich.
+^
 * … betreibt *kein* Compositing (zumindest nicht unbedingt).
 
 -------------------------------------------------------------------------------
@@ -97,17 +121,22 @@ Ein Window-Manager…
 Desktop Environments implementieren ein ganzheitliches Desktop-Konzept.
 
 Dazu zählen zum Beispiel:
+
 * Icons
 * Toolbars
 * Wallpaper
 * Widgets
 * Utilities zur Konfiguration
 * Standardprogramme
+* …
 
+^
 Ein Desktop Environment *beinhaltet einen Window-Manager*.
 
+^
 Der Window-Manager kann typischerweise *ausgetauscht* werden.
 
+^
 *Ein Window-Manager benötigt kein Desktop-Environment.*
 
 -------------------------------------------------------------------------------
@@ -131,6 +160,7 @@ Bekannte / beliebte Desktop Environments (und ihr Window-Manager):
 Die Modularität zwischen WM / DE erlaubt eine Vielzahl von Window-Management-Paradigmen.
 
 Eine grobe Kategorisierung dieser Paradigmen:
+
 * Floating / Stacking Window-Manager
 * Tiling Window-Manager
 * Dynamische Window-Manager
@@ -139,10 +169,20 @@ Eine grobe Kategorisierung dieser Paradigmen:
 
 -> # Warum Tiling Window-Manager?
 
+Primär:
+
+* Kein Stacking
 * Platzverbrauch
+
+^
+Aber auch:
+
 * Ressourcenverbrauch
 * Minimalismus
 * Tastaturorientierung
+
+^
+-> *Zeitersparnis!*
 
 -------------------------------------------------------------------------------
 
@@ -166,13 +206,14 @@ Eine grobe Kategorisierung dieser Paradigmen:
 * Tabbed / Stacked
 * Fullscreen
 * Urgency hints
-* Floating und Fullscreen
+* …
 
 -------------------------------------------------------------------------------
 
 -> # Danke!
 
 * Fragen? Einfach ansprechen!
+* Gerne auch später, per E-Mail, …
 -> … hier gibt's auch Aufkleber :-)
 
 -------------------------------------------------------------------------------
